@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title of the document</title>
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <div id="navigatiebalk">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#" id="blackHeading">h2 zwart</a></li>
+                    <li><a href="#" id="changingFonts">h2 font</a></li>
+                    <li><a href="#"> Link3</a></li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+
+    </div>
+
+
+    <main>
+        <article>
+
+            <header>
+                <h2> Opdracht 1 week 1 van MMT</h2>
+
+            </header>
+
+
+            <p> My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. 
+                Jackie Brown (1997) </p>
+
+
+            <h2> Where does it come from?
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</h2>
+
+
+            <footer>
+                <p> Dit is de tekst voor de footer</p>
+            </footer>
+
+
+        </article>
+
+
+
+        <div class="picture1">
+            <img src="../week1-opdracht1/img/zwartWit@2x.jpg" alt="Foto 1">
+        </div>
+
+        <div class="picture2">
+
+        </div>
+
+
+        <div class="accordion">
+            <h3></h3>
+        </div>
+
+        <div class="apidocumentatie">
+            <p></p>
+        </div>
+
+
+    </main>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script>
+        var fontColor = '#000';
+
+        $(document).ready(function() {
+
+            $('#blackHeading').click(function() {
+                $('h2').css({
+                    'color': fontColor
+                });
+            });
+            $('changingFonts').click(function() {
+                $('h2 font').css({
+                    "font-family": "Comic Sans MS"
+                });
+            });
+        });
+
+
+
+        $(function() {
+            // voer functie uit zodra DOM klaar is
+            $("#accordion").accordion();
+            // de accordion functie van jQuery UI
+        });
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
